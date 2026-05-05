@@ -3,11 +3,10 @@
 
 function activate_shell {
     python3 -m venv env
-    source /bin/activate
-}
+    source /bin/activat
 
 function install_requirements {
-    pip install --upgrade pip
+    pip install --upgrade 
     pip install wheel
     pip install --requirement requirements.txt
 }
